@@ -1,0 +1,17 @@
+{
+
+    "chromeWebSecurity": false,
+    "baseUrl": "https://www.amazon.in/ref=nav_logo",
+    "pageLoadTimeout":120000,
+
+    "reporter":"mochawesome",
+    "reporterOptions":{
+        "reportDir":"cypress/reports",
+        "reportFilename":"testresults",
+        "overwrite":false,
+        "html":true,
+        "json":true,
+        "charts":true
+    }
+
+}
