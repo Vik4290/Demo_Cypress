@@ -1,0 +1,65 @@
+{
+    "homepage":{
+
+      "searchInput":"#twotabsearchtextbox",
+      "searchBtn":"#nav-search-submit-button"
+  },
+  "searchresults":{
+    "shoeResult":".a-color-state.a-text-bold",
+    "searchBtn":"#nav-search-submit-button"
+},
+"brandfilter":{
+  "Adidas":"[aria-label='Adidas'] > span > a > div.a-checkbox.a-checkbox-fancy.s-navigation-checkbox.aok-float-left  > label > i"
+  
+},
+
+"pricefilter":{
+  "pricing_2500_5000":"[id='p_36/4516640031'] > span > a > span" 
+
+},
+
+"size":{
+"size_8":"#a-autoid-3-announce > .a-size-base"
+
+},
+"sortby":{
+"dropdown":".a-dropdown-prompt",
+"low_to_high":"#s-result-sort-select_1"
+
+},
+
+"itemclick":
+{
+  "Shoeclick":"span[class='celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_48'] h2[class='a-size-mini a-spacing-none a-color-base s-line-clamp-2'] > a[class='a-link-normal a-text-normal']",
+  "itemtitle":"#title",
+  "selectsize":"#native_dropdown_selected_size_name",
+  "AddToCard":"#add-to-cart-button",
+  "cartvalue":"#nav-cart-count",
+  "shoppingcart":"#sc-item-C32829b9e-8cf2-4413-ac0e-73dabc896b68"
+},
+
+"resultcount":
+{
+  "searchsection":"#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row > div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row",
+   "searcharea1":".s-main-slot.s-result-list.s-search-results.sg-row",
+   "searcharea2":".sg-col-4-of-12.s-result-item.s-asin.sg-col-4-of-16.sg-col.s-widget-spacing-small.sg-col-4-of-20",
+   "searchcount":".sg-col-14-of-20 > .sg-col-inner > .a-section > :nth-child(1)"
+},
+
+"verifysorting":
+{
+  "item1price":"span[class='celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_1'] span[class='a-price-whole']",
+  "item2price":"span[class='celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_48'] span[class='a-price-whole']"
+},
+
+"Addtocart":
+{
+  "Navigatetocart":"#nav-cart-count",
+  "searchitemclick":"span[class='celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_48'] h2[class='a-size-mini a-spacing-none a-color-base s-line-clamp-2'] > a[class='a-link-normal a-text-normal']",
+  "title":"#title",
+  "selectsizedropdown":"#native_dropdown_selected_size_name",
+  "Addcart":"#add-to-cart-button",
+  "cartitemcheck":".a-truncate-cut"
+
+}
+}
